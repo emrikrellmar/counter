@@ -12,13 +12,13 @@ names.onmouseout = hoverLeave;
 function incClick() {
     let number = 0;
     number = Number(counter.innerHTML);
-    counter.innerHTML = number + 10;
+    counter.innerHTML = number + 1;
 }
 
 function decClick() {
     let number = 0;
     number = Number(counter.innerHTML);
-    counter.innerHTML = number - 10;
+    counter.innerHTML = number - 1;
 }
 
 function hover(e) {
